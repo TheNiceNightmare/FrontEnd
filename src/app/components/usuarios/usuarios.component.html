@@ -1,0 +1,25 @@
+<table class="table">
+<thead>
+    <tr>
+        <th scope="col">Usuario</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Departamento</th>
+        <th scope="col">Cargo</th>
+        <th scope="col">Email</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor=" let emp of Usuarios ">
+        <td>{{emp.usuario}}</td>
+        <td>{{emp.nombres}}</td>
+        <td>{{emp.apellidos}}</td>
+        <td>{{emp.departamento}}</td>
+        <td>{{emp.cargo}}</td>
+        <td>{{emp.email}}</td>
+
+    </tr>
+</tbody>
+
+
+</table>
